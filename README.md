@@ -47,4 +47,3 @@ output the website endpoint
 
 This repository demonstrates how to build a repeatable, version-controlled, and automated cloud deployment for a public-facing static website.
 
-It’s designed for learning, labs, and foundational cloud engineering practice.
