@@ -35,13 +35,13 @@ Initialize → Plan → (Optional Approval) → Apply
 
 During this process Terraform will:
 
-download providers
+Download providers
 
-calculate changes
+Calculate changes
 
-create or update resources
+Create or update resources
 
-output the website endpoint
+Output the website endpoint
 
 🎯 Project Goal
 
