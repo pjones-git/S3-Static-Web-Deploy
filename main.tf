@@ -1,7 +1,6 @@
 provider "aws" {
   region = var.aws_region
 }
-}
 
 # Random String Resource (6-char lowercase, no specials/uppercase)
 resource "random_string" "suffix" {
