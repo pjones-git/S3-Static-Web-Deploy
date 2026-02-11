@@ -1,17 +1,15 @@
 # S3-Static-Web-Deploy
 S3 Static Website Deployment via Terraform
 
-🌐 S3 Static Website Deployment with Terraform
+**S3 Static Website Deployment with Terraform**
 
 This project shows how a static website can be deployed to Amazon Web Services (AWS) using modern Infrastructure as Code practices.
 
-Instead of clicking around the console, everything is built automatically through Terraform, with execution handled by HCP Terraform using secure OIDC-based role assumption.
+All services and infrastructure is built automatically through Terraform, with execution handled by HCP Terraform using secure OIDC-based role assumption.
 
 No long-lived credentials live in this repository.
 
-What Gets Created
-
-When a run executes, Terraform will build:
+Terraform will build:
 
 ✅ A globally unique Amazon S3 bucket
 ✅ Static website hosting configuration
