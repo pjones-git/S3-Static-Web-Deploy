@@ -1,10 +1,6 @@
 provider "aws" {
   region = var.aws_region
-
-  # Terraform Cloud OIDC provides base credentials; this assumes your target role.
-  assume_role {
-    role_arn = var.assume_role_arn
-  }
+}
 }
 
 # Random String Resource (6-char lowercase, no specials/uppercase)
