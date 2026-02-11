@@ -6,7 +6,7 @@ All services and infrastructure is built automatically through Terraform, with e
 
 No long-lived credentials live in this repository.
 
-Terraform will build:
+**Terraform will build:**
 
 ✅ A globally unique Amazon S3 bucket
 ✅ Static website hosting configuration
