@@ -1,7 +1,4 @@
-# S3-Static-Web-Deploy
-S3 Static Website Deployment via Terraform
-
-**S3 Static Website Deployment with Terraform**
+# S3 Static Website Deployment with Terraform
 
 This project shows how a static website can be deployed to Amazon Web Services (AWS) using modern Infrastructure as Code practices.
 
