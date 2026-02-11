@@ -27,16 +27,6 @@ Authentication is handled using short-lived, automatically generated credentials
 
 HCP Terraform federates with AWS IAM through OIDC to assume a role at runtime.
 
-✨ This means:
-
-No access keys
-
-No secrets in code
-
-No credentials in GitHub
-
-⚙️ How Deployments Work
-
 Every push to the repository can trigger a remote run.
 
 The workflow typically follows:
