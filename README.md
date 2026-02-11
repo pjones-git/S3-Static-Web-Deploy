@@ -2,7 +2,7 @@
 
 This project shows how a static website can be deployed to Amazon Web Services (AWS) using modern Infrastructure as Code practices.
 
-All services and infrastructure is built automatically through Terraform, with execution handled by HCP Terraform using secure OIDC-based role assumption.
+All services and infrastructure is built automatically through Terraform, with execution handled by HCP Terraform using secure OIDC-based role assumption and commit changes via Github repository.
 
 No long-lived credentials live in this repository.
 
