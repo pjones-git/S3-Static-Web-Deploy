@@ -16,17 +16,17 @@ Terraform will build:
 ✅ Automatic upload of files from the /html directory
 ✅ Output values that display the live website URL
 
-🔐 Security Model
+🔐 **Security Model**
 
-Authentication is handled using short-lived, automatically generated credentials.
+**Authentication** is handled using short-lived, automatically generated credentials.
 
-HCP Terraform federates with AWS IAM through OIDC to assume a role at runtime.
+HCP Terraform federates with **AWS IAM through OIDC** to assume a role at runtime.
 
 Every push to the repository can trigger a remote run.
 
 The workflow typically follows:
 
-Initialize → Plan → (Optional Approval) → Apply
+**Initialize → Plan → (Optional Approval) → Apply**
 
 During this process Terraform will:
 
