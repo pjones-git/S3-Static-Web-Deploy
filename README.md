@@ -38,7 +38,7 @@ Create or update resources
 
 Output the website endpoint
 
-🎯 Project Goal
+🎯 **Project Goal**
 
 This repository demonstrates how to build a repeatable, version-controlled, and automated cloud deployment for a public-facing static website.
 
